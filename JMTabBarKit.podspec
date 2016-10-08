@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source        = { :git => "https://github.com/James-oc/JMTabBarKit.git", :tag => "1.0.0" }
   s.requires_arc  = true
   s.description   = <<-DESC
-                   A custom tabbar on iOS.
+                   JMTabBarKit - A custom tabbar on iOS.
                    DESC
   s.source_files  = "JMTabBarKit/*/*"
   s.platform      = :ios, '7.0'
