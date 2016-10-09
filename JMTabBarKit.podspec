@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
                    JMTabBarKit - A custom tabbar on iOS.
                    DESC
   s.source_files  = "JMTabBarKit/*/*"
-  s.platform      = :ios, '7.0'
+  s.platform      = :ios, '6.0'
   s.framework     = 'Foundation', 'UIKit'  
 
 end
