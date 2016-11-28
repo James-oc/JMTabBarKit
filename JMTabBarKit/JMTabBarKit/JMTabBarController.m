@@ -10,8 +10,8 @@
 
 #define JM_TabBar_IOS7_OR_LATER                ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)
 
-#define JM_TabBar_LoginStateControl_Dic_Index  @"Index"
-#define JM_TabBar_LoginStateControl_Dic_Obj    @"Obj"
+NSString *const JM_TabBar_LoginStateControl_Dic_Index = @"Index";
+NSString *const JM_TabBar_LoginStateControl_Dic_Obj   = @"Obj";
 
 @interface JMTabBarController ()
 {
@@ -64,6 +64,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+/**
+ *  @brief 实例化
+ *
+ *  @param tabBarArray                      TabBar Item项数组
+ *  @param selectedTextAttributesArray      选中样式
+ *  @param unSelectedTextAttributesArray    未选中样式
+ *
+ *  @return JMTabBarController
+ */
 - (instancetype)initWithTabBarArray:(NSArray *)tabBarArray
              selectedTextAttributes:(NSDictionary *)selectedTextAttributesArray
            unSelectedTextAttributes:(NSDictionary *)unSelectedTextAttributesArray {
@@ -133,6 +142,13 @@
     }
 }
 
+/**
+ *  @brief 设置选中TabBar Item项
+ *
+ *  @param tabBarSelectedIndex Item项下标
+ *
+ *  @return UIViewController
+ */
 - (UIViewController *)setTabBarSelectedIndex:(NSInteger)tabBarSelectedIndex {
     UIViewController *selectedVC = nil;
     
