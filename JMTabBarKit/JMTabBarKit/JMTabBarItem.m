@@ -30,12 +30,27 @@
                   selectedImageName:(NSString *)selectedImageName
                 unSelectedImageName:(NSString *)unSelectedImageName
                            selected:(BOOL)selected {
+    return [JMTabBarItem tabBarItemWithTitle:title
+                               controllClass:controllerClass
+                           selectedImageName:selectedImageName
+                         unSelectedImageName:unSelectedImageName
+                                    selected:selected
+                           loginStateControl:NO];
+}
+
++ (instancetype)tabBarItemWithTitle:(NSString *)title
+                      controllClass:(Class)controllerClass
+                  selectedImageName:(NSString *)selectedImageName
+                unSelectedImageName:(NSString *)unSelectedImageName
+                           selected:(BOOL)selected
+                  loginStateControl:(BOOL)loginStateControl {
     JMTabBarItem *item       = [[JMTabBarItem alloc] init];
     item.title               = title;
     item.controllerClass     = controllerClass;
     item.selectedImageName   = selectedImageName;
     item.unSelectedImageName = unSelectedImageName;
     item.selected            = selected;
+    item.loginStateControl   = loginStateControl;
     
     return item;
 }

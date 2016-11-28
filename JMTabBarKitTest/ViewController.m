@@ -19,11 +19,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.view.backgroundColor = [UIColor redColor];
+    self.view.backgroundColor = [UIColor whiteColor];
     
     tap = [[UITapGestureRecognizer alloc] initWithTarget:self
                                                   action:@selector(close)];
     [self.view addGestureRecognizer:tap];
+    
+    UILabel *label      = [[UILabel alloc] initWithFrame:CGRectMake(0, 64, self.view.frame.size.width, 50)];
+    label.text          = @"请先登录";
+    label.textAlignment = NSTextAlignmentCenter;
+    
+    [self.view addSubview:label];
 }
 
 - (void)didReceiveMemoryWarning {
