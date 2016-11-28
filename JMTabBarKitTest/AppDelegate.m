@@ -50,42 +50,30 @@
 #pragma mark - Test
 - (void)setupJMTabBar {
     NSMutableArray *tabArray = [NSMutableArray array];
-    JMTabBarItem *item1 = [[JMTabBarItem alloc] init];
-    item1.title = @"首页";
-    item1.controllerClass = [FirstViewController class];
-    item1.selectedImageName = @"Tab_Main_Highlight";
-    item1.unSelectedImageName = @"Tab_Main_Normal";
-    item1.selected = YES; // 初始选中状态
+    JMTabBarItem *item1 = [JMTabBarItem tabBarItemWithTitle:@"首页"
+                                              controllClass:[FirstViewController class]
+                                          selectedImageName:@"Tab_Main_Highlight"
+                                        unSelectedImageName:@"Tab_Main_Normal"
+                                                   selected:true];
     
     [tabArray addObject:item1];
     
-    JMTabBarItem *item2 = [[JMTabBarItem alloc] init];
-    item2.title = @"客服";
-    item2.controllerClass = [SecondViewController class];
-    item2.selectedImageName = @"Tab_Assistant_Highlight";
-    item2.unSelectedImageName = @"Tab_Assistant_Normal";
-    item2.selected = NO;
+    JMTabBarItem *item2 = [JMTabBarItem tabBarItemWithTitle:@"客服"
+                                              controllClass:[SecondViewController class]
+                                          selectedImageName:@"Tab_Assistant_Highlight"
+                                        unSelectedImageName:@"Tab_Assistant_Normal"
+                                                   selected:NO];
     
     [tabArray addObject:item2];
     
-    JMTabBarItem *item3 = [[JMTabBarItem alloc] init];
-    item3.title = @"日记";
-    item3.controllerClass = [ThirdViewController class];
-    item3.selectedImageName = @"Tab_Diary_Highlight";
-    item3.unSelectedImageName = @"Tab_Diary_Normal";
-    item3.selected = NO;
+    JMTabBarItem *item3 = [JMTabBarItem tabBarItemWithTitle:@"我的"
+                                              controllClass:[ThirdViewController class]
+                                          selectedImageName:@"Tab_Mine_Highlight"
+                                        unSelectedImageName:@"Tab_Mine_Normal"
+                                                   selected:NO
+                                          loginStateControl:true];
     
     [tabArray addObject:item3];
-    
-    JMTabBarItem *item4 = [[JMTabBarItem alloc] init];
-    item4.title = @"我的";
-    item4.controllerClass = [ThirdViewController class];
-    item4.selectedImageName = @"Tab_Mine_Highlight";
-    item4.unSelectedImageName = @"Tab_Mine_Normal";
-    item4.selected = NO;
-    item4.loginStateControl = YES;
-    
-    [tabArray addObject:item4];
     
     NSDictionary *selectedStyleDic = @{NSFontAttributeName: [UIFont systemFontOfSize:12], NSForegroundColorAttributeName: [UIColor colorWithRed:255.0/255.0 green:73.0/255.0 blue:0.0/255.0 alpha:1.0]};
     

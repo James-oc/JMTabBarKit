@@ -23,4 +23,11 @@
                 unSelectedImageName:(NSString *)unSelectedImageName
                            selected:(BOOL)selected;
 
++ (instancetype)tabBarItemWithTitle:(NSString *)title
+                      controllClass:(Class)controllerClass
+                  selectedImageName:(NSString *)selectedImageName
+                unSelectedImageName:(NSString *)unSelectedImageName
+                           selected:(BOOL)selected
+                  loginStateControl:(BOOL)loginStateControl;
+
 @end

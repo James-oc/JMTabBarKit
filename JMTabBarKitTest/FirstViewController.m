@@ -38,7 +38,7 @@
 
 - (void)clickBtn {
     AppDelegate *_appDelegate = (AppDelegate*)[[UIApplication sharedApplication]delegate];
-    [_appDelegate.tabBarVC setTabBarSelectedIndex:2];
+    [_appDelegate.tabBarVC setTabBarSelectedIndex:1];
 }
 /*
 #pragma mark - Navigation
