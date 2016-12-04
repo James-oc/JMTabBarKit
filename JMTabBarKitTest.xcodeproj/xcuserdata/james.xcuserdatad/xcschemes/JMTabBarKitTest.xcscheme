@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0730"
+   LastUpgradeVersion = "0810"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1A2AC5451AE9D5FF00F7E0A2"
+               BlueprintIdentifier = "1A658B941DF46B0300E265A7"
                BuildableName = "JMTabBarKitTest.app"
                BlueprintName = "JMTabBarKitTest"
-               ReferencedContainer = "container:JMTabBarKitTest.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1A2AC55E1AE9D5FF00F7E0A2"
-               BuildableName = "JMTabBarKitTestTests.xctest"
-               BlueprintName = "JMTabBarKitTestTests"
                ReferencedContainer = "container:JMTabBarKitTest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,9 +32,19 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1A2AC55E1AE9D5FF00F7E0A2"
+               BlueprintIdentifier = "1A658BAD1DF46B0300E265A7"
                BuildableName = "JMTabBarKitTestTests.xctest"
                BlueprintName = "JMTabBarKitTestTests"
+               ReferencedContainer = "container:JMTabBarKitTest.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1A658BB81DF46B0300E265A7"
+               BuildableName = "JMTabBarKitTestUITests.xctest"
+               BlueprintName = "JMTabBarKitTestUITests"
                ReferencedContainer = "container:JMTabBarKitTest.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -56,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1A2AC5451AE9D5FF00F7E0A2"
+            BlueprintIdentifier = "1A658B941DF46B0300E265A7"
             BuildableName = "JMTabBarKitTest.app"
             BlueprintName = "JMTabBarKitTest"
             ReferencedContainer = "container:JMTabBarKitTest.xcodeproj">
@@ -79,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1A2AC5451AE9D5FF00F7E0A2"
+            BlueprintIdentifier = "1A658B941DF46B0300E265A7"
             BuildableName = "JMTabBarKitTest.app"
             BlueprintName = "JMTabBarKitTest"
             ReferencedContainer = "container:JMTabBarKitTest.xcodeproj">
@@ -98,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1A2AC5451AE9D5FF00F7E0A2"
+            BlueprintIdentifier = "1A658B941DF46B0300E265A7"
             BuildableName = "JMTabBarKitTest.app"
             BlueprintName = "JMTabBarKitTest"
             ReferencedContainer = "container:JMTabBarKitTest.xcodeproj">

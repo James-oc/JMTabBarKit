@@ -2,8 +2,8 @@
 //  main.m
 //  JMTabBarKitTest
 //
-//  Created by james on 15/4/24.
-//  Copyright (c) 2015年 james. All rights reserved.
+//  Created by James on 2016/12/4.
+//  Copyright © 2016年 James. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

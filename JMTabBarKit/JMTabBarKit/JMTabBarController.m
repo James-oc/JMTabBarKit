@@ -102,6 +102,7 @@
                 navVC.tabBarItem.selectedImage = [UIImage imageNamed:item.selectedImageName];
                 
                 if (JM_TabBar_IOS7_OR_LATER) {
+                    navVC.tabBarItem.image = [navVC.tabBarItem.image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
                     navVC.tabBarItem.selectedImage = [navVC.tabBarItem.selectedImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
                 }else{
                     [navVC.tabBarItem setFinishedSelectedImage:navVC.tabBarItem.selectedImage

@@ -7,36 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A1664A91C7819A700D5151B /* Tab_Assistant_Highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1664991C7819A700D5151B /* Tab_Assistant_Highlight.png */; };
-		1A1664AA1C7819A700D5151B /* Tab_Assistant_Highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A16649A1C7819A700D5151B /* Tab_Assistant_Highlight@2x.png */; };
-		1A1664AB1C7819A700D5151B /* Tab_Assistant_Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A16649B1C7819A700D5151B /* Tab_Assistant_Normal.png */; };
-		1A1664AC1C7819A700D5151B /* Tab_Assistant_Normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A16649C1C7819A700D5151B /* Tab_Assistant_Normal@2x.png */; };
-		1A1664B11C7819A700D5151B /* Tab_Main_Highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1664A11C7819A700D5151B /* Tab_Main_Highlight.png */; };
-		1A1664B21C7819A700D5151B /* Tab_Main_Highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1664A21C7819A700D5151B /* Tab_Main_Highlight@2x.png */; };
-		1A1664B31C7819A700D5151B /* Tab_Main_Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1664A31C7819A700D5151B /* Tab_Main_Normal.png */; };
-		1A1664B41C7819A700D5151B /* Tab_Main_Normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1664A41C7819A700D5151B /* Tab_Main_Normal@2x.png */; };
-		1A1664B51C7819A700D5151B /* Tab_Mine_Highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1664A51C7819A700D5151B /* Tab_Mine_Highlight.png */; };
-		1A1664B61C7819A700D5151B /* Tab_Mine_Highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1664A61C7819A700D5151B /* Tab_Mine_Highlight@2x.png */; };
-		1A1664B71C7819A700D5151B /* Tab_Mine_Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1664A71C7819A700D5151B /* Tab_Mine_Normal.png */; };
-		1A1664B81C7819A700D5151B /* Tab_Mine_Normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1664A81C7819A700D5151B /* Tab_Mine_Normal@2x.png */; };
-		1A2AC54C1AE9D5FF00F7E0A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2AC54B1AE9D5FF00F7E0A2 /* main.m */; };
-		1A2AC54F1AE9D5FF00F7E0A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2AC54E1AE9D5FF00F7E0A2 /* AppDelegate.m */; };
-		1A2AC5521AE9D5FF00F7E0A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2AC5511AE9D5FF00F7E0A2 /* ViewController.m */; };
-		1A2AC5551AE9D5FF00F7E0A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A2AC5531AE9D5FF00F7E0A2 /* Main.storyboard */; };
-		1A2AC5571AE9D5FF00F7E0A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A2AC5561AE9D5FF00F7E0A2 /* Images.xcassets */; };
-		1A2AC55A1AE9D5FF00F7E0A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A2AC5581AE9D5FF00F7E0A2 /* LaunchScreen.xib */; };
-		1A658B861DF4629600E265A7 /* 1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1A658B841DF4629600E265A7 /* 1.pdf */; };
-		1A658B871DF4629600E265A7 /* 2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1A658B851DF4629600E265A7 /* 2.pdf */; };
-		1AA540821AEF2C6A0094A70F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA540811AEF2C6A0094A70F /* FirstViewController.m */; };
-		1AA540861AEF2CB90094A70F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA540851AEF2CB90094A70F /* SecondViewController.m */; };
-		1AA540891AEF2D070094A70F /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA540881AEF2D070094A70F /* ThirdViewController.m */; };
-		1AA5408A1AEF2E530094A70F /* libJMTabBarKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A2AC5971AE9D63900F7E0A2 /* libJMTabBarKit.a */; };
+		1A658B9A1DF46B0300E265A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A658B991DF46B0300E265A7 /* main.m */; };
+		1A658B9D1DF46B0300E265A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A658B9C1DF46B0300E265A7 /* AppDelegate.m */; };
+		1A658BA01DF46B0300E265A7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A658B9F1DF46B0300E265A7 /* LoginViewController.m */; };
+		1A658BA31DF46B0300E265A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A658BA11DF46B0300E265A7 /* Main.storyboard */; };
+		1A658BA51DF46B0300E265A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A658BA41DF46B0300E265A7 /* Assets.xcassets */; };
+		1A658BA81DF46B0300E265A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A658BA61DF46B0300E265A7 /* LaunchScreen.storyboard */; };
+		1A658BB31DF46B0300E265A7 /* JMTabBarKitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A658BB21DF46B0300E265A7 /* JMTabBarKitTestTests.m */; };
+		1A658BBE1DF46B0300E265A7 /* JMTabBarKitTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A658BBD1DF46B0300E265A7 /* JMTabBarKitTestUITests.m */; };
+		1A658BD21DF46BD000E265A7 /* libJMTabBarKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A658BD11DF46B7D00E265A7 /* libJMTabBarKit.a */; };
+		1A658BD91DF46C2C00E265A7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A658BD41DF46C2C00E265A7 /* FirstViewController.m */; };
+		1A658BDA1DF46C2C00E265A7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A658BD61DF46C2C00E265A7 /* SecondViewController.m */; };
+		1A658BDB1DF46C2C00E265A7 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A658BD81DF46C2C00E265A7 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1A2AC5961AE9D63900F7E0A2 /* PBXContainerItemProxy */ = {
+		1A658BAF1DF46B0300E265A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1A2AC5921AE9D63900F7E0A2 /* JMTabBarKit.xcodeproj */;
+			containerPortal = 1A658B8D1DF46B0300E265A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A658B941DF46B0300E265A7;
+			remoteInfo = JMTabBarKitTest;
+		};
+		1A658BBA1DF46B0300E265A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A658B8D1DF46B0300E265A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A658B941DF46B0300E265A7;
+			remoteInfo = JMTabBarKitTest;
+		};
+		1A658BD01DF46B7D00E265A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A658BCB1DF46B7D00E265A7 /* JMTabBarKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 1A2AC5781AE9D61400F7E0A2;
 			remoteInfo = JMTabBarKit;
@@ -44,124 +46,130 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A1664991C7819A700D5151B /* Tab_Assistant_Highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tab_Assistant_Highlight.png; sourceTree = "<group>"; };
-		1A16649A1C7819A700D5151B /* Tab_Assistant_Highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tab_Assistant_Highlight@2x.png"; sourceTree = "<group>"; };
-		1A16649B1C7819A700D5151B /* Tab_Assistant_Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tab_Assistant_Normal.png; sourceTree = "<group>"; };
-		1A16649C1C7819A700D5151B /* Tab_Assistant_Normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tab_Assistant_Normal@2x.png"; sourceTree = "<group>"; };
-		1A1664A11C7819A700D5151B /* Tab_Main_Highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tab_Main_Highlight.png; sourceTree = "<group>"; };
-		1A1664A21C7819A700D5151B /* Tab_Main_Highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tab_Main_Highlight@2x.png"; sourceTree = "<group>"; };
-		1A1664A31C7819A700D5151B /* Tab_Main_Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tab_Main_Normal.png; sourceTree = "<group>"; };
-		1A1664A41C7819A700D5151B /* Tab_Main_Normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tab_Main_Normal@2x.png"; sourceTree = "<group>"; };
-		1A1664A51C7819A700D5151B /* Tab_Mine_Highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tab_Mine_Highlight.png; sourceTree = "<group>"; };
-		1A1664A61C7819A700D5151B /* Tab_Mine_Highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tab_Mine_Highlight@2x.png"; sourceTree = "<group>"; };
-		1A1664A71C7819A700D5151B /* Tab_Mine_Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tab_Mine_Normal.png; sourceTree = "<group>"; };
-		1A1664A81C7819A700D5151B /* Tab_Mine_Normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tab_Mine_Normal@2x.png"; sourceTree = "<group>"; };
-		1A2AC5461AE9D5FF00F7E0A2 /* JMTabBarKitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMTabBarKitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A2AC54A1AE9D5FF00F7E0A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A2AC54B1AE9D5FF00F7E0A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1A2AC54D1AE9D5FF00F7E0A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1A2AC54E1AE9D5FF00F7E0A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1A2AC5501AE9D5FF00F7E0A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1A2AC5511AE9D5FF00F7E0A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1A2AC5541AE9D5FF00F7E0A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1A2AC5561AE9D5FF00F7E0A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1A2AC5591AE9D5FF00F7E0A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		1A2AC5921AE9D63900F7E0A2 /* JMTabBarKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JMTabBarKit.xcodeproj; path = JMTabBarKit/JMTabBarKit.xcodeproj; sourceTree = "<group>"; };
-		1A658B841DF4629600E265A7 /* 1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 1.pdf; sourceTree = "<group>"; };
-		1A658B851DF4629600E265A7 /* 2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 2.pdf; sourceTree = "<group>"; };
-		1AA540801AEF2C6A0094A70F /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		1AA540811AEF2C6A0094A70F /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		1AA540841AEF2CB90094A70F /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		1AA540851AEF2CB90094A70F /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		1AA540871AEF2D070094A70F /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
-		1AA540881AEF2D070094A70F /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		1A658B951DF46B0300E265A7 /* JMTabBarKitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMTabBarKitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A658B991DF46B0300E265A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A658B9B1DF46B0300E265A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A658B9C1DF46B0300E265A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A658B9E1DF46B0300E265A7 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		1A658B9F1DF46B0300E265A7 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		1A658BA21DF46B0300E265A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A658BA41DF46B0300E265A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A658BA71DF46B0300E265A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A658BA91DF46B0300E265A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A658BAE1DF46B0300E265A7 /* JMTabBarKitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMTabBarKitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A658BB21DF46B0300E265A7 /* JMTabBarKitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMTabBarKitTestTests.m; sourceTree = "<group>"; };
+		1A658BB41DF46B0300E265A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A658BB91DF46B0300E265A7 /* JMTabBarKitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMTabBarKitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A658BBD1DF46B0300E265A7 /* JMTabBarKitTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMTabBarKitTestUITests.m; sourceTree = "<group>"; };
+		1A658BBF1DF46B0300E265A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A658BCB1DF46B7D00E265A7 /* JMTabBarKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JMTabBarKit.xcodeproj; path = JMTabBarKit/JMTabBarKit.xcodeproj; sourceTree = "<group>"; };
+		1A658BD31DF46C2C00E265A7 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		1A658BD41DF46C2C00E265A7 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		1A658BD51DF46C2C00E265A7 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		1A658BD61DF46C2C00E265A7 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		1A658BD71DF46C2C00E265A7 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		1A658BD81DF46C2C00E265A7 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1A2AC5431AE9D5FF00F7E0A2 /* Frameworks */ = {
+		1A658B921DF46B0300E265A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AA5408A1AEF2E530094A70F /* libJMTabBarKit.a in Frameworks */,
+				1A658BD21DF46BD000E265A7 /* libJMTabBarKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A658BAB1DF46B0300E265A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A658BB61DF46B0300E265A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A1664981C7819A700D5151B /* image */ = {
+		1A658B8C1DF46B0300E265A7 = {
 			isa = PBXGroup;
 			children = (
-				1A658B841DF4629600E265A7 /* 1.pdf */,
-				1A658B851DF4629600E265A7 /* 2.pdf */,
-				1A1664991C7819A700D5151B /* Tab_Assistant_Highlight.png */,
-				1A16649A1C7819A700D5151B /* Tab_Assistant_Highlight@2x.png */,
-				1A16649B1C7819A700D5151B /* Tab_Assistant_Normal.png */,
-				1A16649C1C7819A700D5151B /* Tab_Assistant_Normal@2x.png */,
-				1A1664A11C7819A700D5151B /* Tab_Main_Highlight.png */,
-				1A1664A21C7819A700D5151B /* Tab_Main_Highlight@2x.png */,
-				1A1664A31C7819A700D5151B /* Tab_Main_Normal.png */,
-				1A1664A41C7819A700D5151B /* Tab_Main_Normal@2x.png */,
-				1A1664A51C7819A700D5151B /* Tab_Mine_Highlight.png */,
-				1A1664A61C7819A700D5151B /* Tab_Mine_Highlight@2x.png */,
-				1A1664A71C7819A700D5151B /* Tab_Mine_Normal.png */,
-				1A1664A81C7819A700D5151B /* Tab_Mine_Normal@2x.png */,
-			);
-			path = image;
-			sourceTree = "<group>";
-		};
-		1A2AC53D1AE9D5FF00F7E0A2 = {
-			isa = PBXGroup;
-			children = (
-				1A2AC5921AE9D63900F7E0A2 /* JMTabBarKit.xcodeproj */,
-				1A2AC5481AE9D5FF00F7E0A2 /* JMTabBarKitTest */,
-				1A2AC5471AE9D5FF00F7E0A2 /* Products */,
+				1A658BCB1DF46B7D00E265A7 /* JMTabBarKit.xcodeproj */,
+				1A658B971DF46B0300E265A7 /* JMTabBarKitTest */,
+				1A658BB11DF46B0300E265A7 /* JMTabBarKitTestTests */,
+				1A658BBC1DF46B0300E265A7 /* JMTabBarKitTestUITests */,
+				1A658B961DF46B0300E265A7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1A2AC5471AE9D5FF00F7E0A2 /* Products */ = {
+		1A658B961DF46B0300E265A7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1A2AC5461AE9D5FF00F7E0A2 /* JMTabBarKitTest.app */,
+				1A658B951DF46B0300E265A7 /* JMTabBarKitTest.app */,
+				1A658BAE1DF46B0300E265A7 /* JMTabBarKitTestTests.xctest */,
+				1A658BB91DF46B0300E265A7 /* JMTabBarKitTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1A2AC5481AE9D5FF00F7E0A2 /* JMTabBarKitTest */ = {
+		1A658B971DF46B0300E265A7 /* JMTabBarKitTest */ = {
 			isa = PBXGroup;
 			children = (
-				1A1664981C7819A700D5151B /* image */,
-				1A2AC54D1AE9D5FF00F7E0A2 /* AppDelegate.h */,
-				1A2AC54E1AE9D5FF00F7E0A2 /* AppDelegate.m */,
-				1A2AC5501AE9D5FF00F7E0A2 /* ViewController.h */,
-				1A2AC5511AE9D5FF00F7E0A2 /* ViewController.m */,
-				1A2AC5531AE9D5FF00F7E0A2 /* Main.storyboard */,
-				1A2AC5561AE9D5FF00F7E0A2 /* Images.xcassets */,
-				1A2AC5581AE9D5FF00F7E0A2 /* LaunchScreen.xib */,
-				1AA540801AEF2C6A0094A70F /* FirstViewController.h */,
-				1AA540811AEF2C6A0094A70F /* FirstViewController.m */,
-				1AA540841AEF2CB90094A70F /* SecondViewController.h */,
-				1AA540851AEF2CB90094A70F /* SecondViewController.m */,
-				1AA540871AEF2D070094A70F /* ThirdViewController.h */,
-				1AA540881AEF2D070094A70F /* ThirdViewController.m */,
-				1A2AC5491AE9D5FF00F7E0A2 /* Supporting Files */,
+				1A658B9B1DF46B0300E265A7 /* AppDelegate.h */,
+				1A658B9C1DF46B0300E265A7 /* AppDelegate.m */,
+				1A658BD31DF46C2C00E265A7 /* FirstViewController.h */,
+				1A658BD41DF46C2C00E265A7 /* FirstViewController.m */,
+				1A658BD51DF46C2C00E265A7 /* SecondViewController.h */,
+				1A658BD61DF46C2C00E265A7 /* SecondViewController.m */,
+				1A658BD71DF46C2C00E265A7 /* ThirdViewController.h */,
+				1A658BD81DF46C2C00E265A7 /* ThirdViewController.m */,
+				1A658B9E1DF46B0300E265A7 /* LoginViewController.h */,
+				1A658B9F1DF46B0300E265A7 /* LoginViewController.m */,
+				1A658BA11DF46B0300E265A7 /* Main.storyboard */,
+				1A658BA41DF46B0300E265A7 /* Assets.xcassets */,
+				1A658BA61DF46B0300E265A7 /* LaunchScreen.storyboard */,
+				1A658BA91DF46B0300E265A7 /* Info.plist */,
+				1A658B981DF46B0300E265A7 /* Supporting Files */,
 			);
 			path = JMTabBarKitTest;
 			sourceTree = "<group>";
 		};
-		1A2AC5491AE9D5FF00F7E0A2 /* Supporting Files */ = {
+		1A658B981DF46B0300E265A7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1A2AC54A1AE9D5FF00F7E0A2 /* Info.plist */,
-				1A2AC54B1AE9D5FF00F7E0A2 /* main.m */,
+				1A658B991DF46B0300E265A7 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1A2AC5931AE9D63900F7E0A2 /* Products */ = {
+		1A658BB11DF46B0300E265A7 /* JMTabBarKitTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				1A2AC5971AE9D63900F7E0A2 /* libJMTabBarKit.a */,
+				1A658BB21DF46B0300E265A7 /* JMTabBarKitTestTests.m */,
+				1A658BB41DF46B0300E265A7 /* Info.plist */,
+			);
+			path = JMTabBarKitTestTests;
+			sourceTree = "<group>";
+		};
+		1A658BBC1DF46B0300E265A7 /* JMTabBarKitTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A658BBD1DF46B0300E265A7 /* JMTabBarKitTestUITests.m */,
+				1A658BBF1DF46B0300E265A7 /* Info.plist */,
+			);
+			path = JMTabBarKitTestUITests;
+			sourceTree = "<group>";
+		};
+		1A658BCC1DF46B7D00E265A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A658BD11DF46B7D00E265A7 /* libJMTabBarKit.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -169,13 +177,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1A2AC5451AE9D5FF00F7E0A2 /* JMTabBarKitTest */ = {
+		1A658B941DF46B0300E265A7 /* JMTabBarKitTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A2AC5691AE9D5FF00F7E0A2 /* Build configuration list for PBXNativeTarget "JMTabBarKitTest" */;
+			buildConfigurationList = 1A658BC21DF46B0300E265A7 /* Build configuration list for PBXNativeTarget "JMTabBarKitTest" */;
 			buildPhases = (
-				1A2AC5421AE9D5FF00F7E0A2 /* Sources */,
-				1A2AC5431AE9D5FF00F7E0A2 /* Frameworks */,
-				1A2AC5441AE9D5FF00F7E0A2 /* Resources */,
+				1A658B911DF46B0300E265A7 /* Sources */,
+				1A658B921DF46B0300E265A7 /* Frameworks */,
+				1A658B931DF46B0300E265A7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -183,24 +191,74 @@
 			);
 			name = JMTabBarKitTest;
 			productName = JMTabBarKitTest;
-			productReference = 1A2AC5461AE9D5FF00F7E0A2 /* JMTabBarKitTest.app */;
+			productReference = 1A658B951DF46B0300E265A7 /* JMTabBarKitTest.app */;
 			productType = "com.apple.product-type.application";
+		};
+		1A658BAD1DF46B0300E265A7 /* JMTabBarKitTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A658BC51DF46B0300E265A7 /* Build configuration list for PBXNativeTarget "JMTabBarKitTestTests" */;
+			buildPhases = (
+				1A658BAA1DF46B0300E265A7 /* Sources */,
+				1A658BAB1DF46B0300E265A7 /* Frameworks */,
+				1A658BAC1DF46B0300E265A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A658BB01DF46B0300E265A7 /* PBXTargetDependency */,
+			);
+			name = JMTabBarKitTestTests;
+			productName = JMTabBarKitTestTests;
+			productReference = 1A658BAE1DF46B0300E265A7 /* JMTabBarKitTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A658BB81DF46B0300E265A7 /* JMTabBarKitTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A658BC81DF46B0300E265A7 /* Build configuration list for PBXNativeTarget "JMTabBarKitTestUITests" */;
+			buildPhases = (
+				1A658BB51DF46B0300E265A7 /* Sources */,
+				1A658BB61DF46B0300E265A7 /* Frameworks */,
+				1A658BB71DF46B0300E265A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A658BBB1DF46B0300E265A7 /* PBXTargetDependency */,
+			);
+			name = JMTabBarKitTestUITests;
+			productName = JMTabBarKitTestUITests;
+			productReference = 1A658BB91DF46B0300E265A7 /* JMTabBarKitTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1A2AC53E1AE9D5FF00F7E0A2 /* Project object */ = {
+		1A658B8D1DF46B0300E265A7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = james;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = James;
 				TargetAttributes = {
-					1A2AC5451AE9D5FF00F7E0A2 = {
-						CreatedOnToolsVersion = 6.3.1;
+					1A658B941DF46B0300E265A7 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 58SDKF7S9Q;
+						ProvisioningStyle = Automatic;
+					};
+					1A658BAD1DF46B0300E265A7 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 58SDKF7S9Q;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1A658B941DF46B0300E265A7;
+					};
+					1A658BB81DF46B0300E265A7 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 58SDKF7S9Q;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1A658B941DF46B0300E265A7;
 					};
 				};
 			};
-			buildConfigurationList = 1A2AC5411AE9D5FF00F7E0A2 /* Build configuration list for PBXProject "JMTabBarKitTest" */;
+			buildConfigurationList = 1A658B901DF46B0300E265A7 /* Build configuration list for PBXProject "JMTabBarKitTest" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -208,99 +266,131 @@
 				en,
 				Base,
 			);
-			mainGroup = 1A2AC53D1AE9D5FF00F7E0A2;
-			productRefGroup = 1A2AC5471AE9D5FF00F7E0A2 /* Products */;
+			mainGroup = 1A658B8C1DF46B0300E265A7;
+			productRefGroup = 1A658B961DF46B0300E265A7 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 1A2AC5931AE9D63900F7E0A2 /* Products */;
-					ProjectRef = 1A2AC5921AE9D63900F7E0A2 /* JMTabBarKit.xcodeproj */;
+					ProductGroup = 1A658BCC1DF46B7D00E265A7 /* Products */;
+					ProjectRef = 1A658BCB1DF46B7D00E265A7 /* JMTabBarKit.xcodeproj */;
 				},
 			);
 			projectRoot = "";
 			targets = (
-				1A2AC5451AE9D5FF00F7E0A2 /* JMTabBarKitTest */,
+				1A658B941DF46B0300E265A7 /* JMTabBarKitTest */,
+				1A658BAD1DF46B0300E265A7 /* JMTabBarKitTestTests */,
+				1A658BB81DF46B0300E265A7 /* JMTabBarKitTestUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		1A2AC5971AE9D63900F7E0A2 /* libJMTabBarKit.a */ = {
+		1A658BD11DF46B7D00E265A7 /* libJMTabBarKit.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libJMTabBarKit.a;
-			remoteRef = 1A2AC5961AE9D63900F7E0A2 /* PBXContainerItemProxy */;
+			remoteRef = 1A658BD01DF46B7D00E265A7 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1A2AC5441AE9D5FF00F7E0A2 /* Resources */ = {
+		1A658B931DF46B0300E265A7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A1664B21C7819A700D5151B /* Tab_Main_Highlight@2x.png in Resources */,
-				1A1664B71C7819A700D5151B /* Tab_Mine_Normal.png in Resources */,
-				1A658B871DF4629600E265A7 /* 2.pdf in Resources */,
-				1A1664B11C7819A700D5151B /* Tab_Main_Highlight.png in Resources */,
-				1A1664B31C7819A700D5151B /* Tab_Main_Normal.png in Resources */,
-				1A1664B41C7819A700D5151B /* Tab_Main_Normal@2x.png in Resources */,
-				1A1664B81C7819A700D5151B /* Tab_Mine_Normal@2x.png in Resources */,
-				1A1664AA1C7819A700D5151B /* Tab_Assistant_Highlight@2x.png in Resources */,
-				1A1664AC1C7819A700D5151B /* Tab_Assistant_Normal@2x.png in Resources */,
-				1A2AC5551AE9D5FF00F7E0A2 /* Main.storyboard in Resources */,
-				1A1664A91C7819A700D5151B /* Tab_Assistant_Highlight.png in Resources */,
-				1A658B861DF4629600E265A7 /* 1.pdf in Resources */,
-				1A2AC55A1AE9D5FF00F7E0A2 /* LaunchScreen.xib in Resources */,
-				1A1664B61C7819A700D5151B /* Tab_Mine_Highlight@2x.png in Resources */,
-				1A2AC5571AE9D5FF00F7E0A2 /* Images.xcassets in Resources */,
-				1A1664AB1C7819A700D5151B /* Tab_Assistant_Normal.png in Resources */,
-				1A1664B51C7819A700D5151B /* Tab_Mine_Highlight.png in Resources */,
+				1A658BA81DF46B0300E265A7 /* LaunchScreen.storyboard in Resources */,
+				1A658BA51DF46B0300E265A7 /* Assets.xcassets in Resources */,
+				1A658BA31DF46B0300E265A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A658BAC1DF46B0300E265A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A658BB71DF46B0300E265A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1A2AC5421AE9D5FF00F7E0A2 /* Sources */ = {
+		1A658B911DF46B0300E265A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AA540861AEF2CB90094A70F /* SecondViewController.m in Sources */,
-				1A2AC5521AE9D5FF00F7E0A2 /* ViewController.m in Sources */,
-				1AA540891AEF2D070094A70F /* ThirdViewController.m in Sources */,
-				1A2AC54F1AE9D5FF00F7E0A2 /* AppDelegate.m in Sources */,
-				1A2AC54C1AE9D5FF00F7E0A2 /* main.m in Sources */,
-				1AA540821AEF2C6A0094A70F /* FirstViewController.m in Sources */,
+				1A658BDA1DF46C2C00E265A7 /* SecondViewController.m in Sources */,
+				1A658BA01DF46B0300E265A7 /* LoginViewController.m in Sources */,
+				1A658BDB1DF46C2C00E265A7 /* ThirdViewController.m in Sources */,
+				1A658B9D1DF46B0300E265A7 /* AppDelegate.m in Sources */,
+				1A658B9A1DF46B0300E265A7 /* main.m in Sources */,
+				1A658BD91DF46C2C00E265A7 /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A658BAA1DF46B0300E265A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A658BB31DF46B0300E265A7 /* JMTabBarKitTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A658BB51DF46B0300E265A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A658BBE1DF46B0300E265A7 /* JMTabBarKitTestUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		1A658BB01DF46B0300E265A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A658B941DF46B0300E265A7 /* JMTabBarKitTest */;
+			targetProxy = 1A658BAF1DF46B0300E265A7 /* PBXContainerItemProxy */;
+		};
+		1A658BBB1DF46B0300E265A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A658B941DF46B0300E265A7 /* JMTabBarKitTest */;
+			targetProxy = 1A658BBA1DF46B0300E265A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		1A2AC5531AE9D5FF00F7E0A2 /* Main.storyboard */ = {
+		1A658BA11DF46B0300E265A7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1A2AC5541AE9D5FF00F7E0A2 /* Base */,
+				1A658BA21DF46B0300E265A7 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1A2AC5581AE9D5FF00F7E0A2 /* LaunchScreen.xib */ = {
+		1A658BA61DF46B0300E265A7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1A2AC5591AE9D5FF00F7E0A2 /* Base */,
+				1A658BA71DF46B0300E265A7 /* Base */,
 			);
-			name = LaunchScreen.xib;
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1A2AC5671AE9D5FF00F7E0A2 /* Debug */ = {
+		1A658BC01DF46B0300E265A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -308,15 +398,18 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -327,14 +420,13 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -342,10 +434,11 @@
 			};
 			name = Debug;
 		};
-		1A2AC5681AE9D5FF00F7E0A2 /* Release */ = {
+		1A658BC11DF46B0300E265A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -353,10 +446,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -372,7 +468,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -380,62 +476,128 @@
 			};
 			name = Release;
 		};
-		1A2AC56A1AE9D5FF00F7E0A2 /* Debug */ = {
+		1A658BC31DF46B0300E265A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 58SDKF7S9Q;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(PROJECT_DIR)/JMTabBarKit/JMTabBarKit",
+					"$(PROJECT_DIR)/JMTabBarKit/",
 				);
 				INFOPLIST_FILE = JMTabBarKitTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "suryani.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hgy.test.JMTabBarKitTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		1A2AC56B1AE9D5FF00F7E0A2 /* Release */ = {
+		1A658BC41DF46B0300E265A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 58SDKF7S9Q;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(PROJECT_DIR)/JMTabBarKit/JMTabBarKit",
+					"$(PROJECT_DIR)/JMTabBarKit/",
 				);
 				INFOPLIST_FILE = JMTabBarKitTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "suryani.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hgy.test.JMTabBarKitTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1A658BC61DF46B0300E265A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 58SDKF7S9Q;
+				INFOPLIST_FILE = JMTabBarKitTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hgy.test.JMTabBarKitTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMTabBarKitTest.app/JMTabBarKitTest";
+			};
+			name = Debug;
+		};
+		1A658BC71DF46B0300E265A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 58SDKF7S9Q;
+				INFOPLIST_FILE = JMTabBarKitTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hgy.test.JMTabBarKitTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMTabBarKitTest.app/JMTabBarKitTest";
+			};
+			name = Release;
+		};
+		1A658BC91DF46B0300E265A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 58SDKF7S9Q;
+				INFOPLIST_FILE = JMTabBarKitTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hgy.test.JMTabBarKitTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JMTabBarKitTest;
+			};
+			name = Debug;
+		};
+		1A658BCA1DF46B0300E265A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 58SDKF7S9Q;
+				INFOPLIST_FILE = JMTabBarKitTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hgy.test.JMTabBarKitTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JMTabBarKitTest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A2AC5411AE9D5FF00F7E0A2 /* Build configuration list for PBXProject "JMTabBarKitTest" */ = {
+		1A658B901DF46B0300E265A7 /* Build configuration list for PBXProject "JMTabBarKitTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A2AC5671AE9D5FF00F7E0A2 /* Debug */,
-				1A2AC5681AE9D5FF00F7E0A2 /* Release */,
+				1A658BC01DF46B0300E265A7 /* Debug */,
+				1A658BC11DF46B0300E265A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A2AC5691AE9D5FF00F7E0A2 /* Build configuration list for PBXNativeTarget "JMTabBarKitTest" */ = {
+		1A658BC21DF46B0300E265A7 /* Build configuration list for PBXNativeTarget "JMTabBarKitTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A2AC56A1AE9D5FF00F7E0A2 /* Debug */,
-				1A2AC56B1AE9D5FF00F7E0A2 /* Release */,
+				1A658BC31DF46B0300E265A7 /* Debug */,
+				1A658BC41DF46B0300E265A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A658BC51DF46B0300E265A7 /* Build configuration list for PBXNativeTarget "JMTabBarKitTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A658BC61DF46B0300E265A7 /* Debug */,
+				1A658BC71DF46B0300E265A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A658BC81DF46B0300E265A7 /* Build configuration list for PBXNativeTarget "JMTabBarKitTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A658BC91DF46B0300E265A7 /* Debug */,
+				1A658BCA1DF46B0300E265A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1A2AC53E1AE9D5FF00F7E0A2 /* Project object */;
+	rootObject = 1A658B8D1DF46B0300E265A7 /* Project object */;
 }
