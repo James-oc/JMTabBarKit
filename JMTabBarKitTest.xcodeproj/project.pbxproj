@@ -25,6 +25,8 @@
 		1A2AC5551AE9D5FF00F7E0A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A2AC5531AE9D5FF00F7E0A2 /* Main.storyboard */; };
 		1A2AC5571AE9D5FF00F7E0A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A2AC5561AE9D5FF00F7E0A2 /* Images.xcassets */; };
 		1A2AC55A1AE9D5FF00F7E0A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A2AC5581AE9D5FF00F7E0A2 /* LaunchScreen.xib */; };
+		1A658B861DF4629600E265A7 /* 1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1A658B841DF4629600E265A7 /* 1.pdf */; };
+		1A658B871DF4629600E265A7 /* 2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1A658B851DF4629600E265A7 /* 2.pdf */; };
 		1AA540821AEF2C6A0094A70F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA540811AEF2C6A0094A70F /* FirstViewController.m */; };
 		1AA540861AEF2CB90094A70F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA540851AEF2CB90094A70F /* SecondViewController.m */; };
 		1AA540891AEF2D070094A70F /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA540881AEF2D070094A70F /* ThirdViewController.m */; };
@@ -65,6 +67,8 @@
 		1A2AC5561AE9D5FF00F7E0A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1A2AC5591AE9D5FF00F7E0A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1A2AC5921AE9D63900F7E0A2 /* JMTabBarKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JMTabBarKit.xcodeproj; path = JMTabBarKit/JMTabBarKit.xcodeproj; sourceTree = "<group>"; };
+		1A658B841DF4629600E265A7 /* 1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 1.pdf; sourceTree = "<group>"; };
+		1A658B851DF4629600E265A7 /* 2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 2.pdf; sourceTree = "<group>"; };
 		1AA540801AEF2C6A0094A70F /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		1AA540811AEF2C6A0094A70F /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		1AA540841AEF2CB90094A70F /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
@@ -88,6 +92,8 @@
 		1A1664981C7819A700D5151B /* image */ = {
 			isa = PBXGroup;
 			children = (
+				1A658B841DF4629600E265A7 /* 1.pdf */,
+				1A658B851DF4629600E265A7 /* 2.pdf */,
 				1A1664991C7819A700D5151B /* Tab_Assistant_Highlight.png */,
 				1A16649A1C7819A700D5151B /* Tab_Assistant_Highlight@2x.png */,
 				1A16649B1C7819A700D5151B /* Tab_Assistant_Normal.png */,
@@ -235,6 +241,7 @@
 			files = (
 				1A1664B21C7819A700D5151B /* Tab_Main_Highlight@2x.png in Resources */,
 				1A1664B71C7819A700D5151B /* Tab_Mine_Normal.png in Resources */,
+				1A658B871DF4629600E265A7 /* 2.pdf in Resources */,
 				1A1664B11C7819A700D5151B /* Tab_Main_Highlight.png in Resources */,
 				1A1664B31C7819A700D5151B /* Tab_Main_Normal.png in Resources */,
 				1A1664B41C7819A700D5151B /* Tab_Main_Normal@2x.png in Resources */,
@@ -243,6 +250,7 @@
 				1A1664AC1C7819A700D5151B /* Tab_Assistant_Normal@2x.png in Resources */,
 				1A2AC5551AE9D5FF00F7E0A2 /* Main.storyboard in Resources */,
 				1A1664A91C7819A700D5151B /* Tab_Assistant_Highlight.png in Resources */,
+				1A658B861DF4629600E265A7 /* 1.pdf in Resources */,
 				1A2AC55A1AE9D5FF00F7E0A2 /* LaunchScreen.xib in Resources */,
 				1A1664B61C7819A700D5151B /* Tab_Mine_Highlight@2x.png in Resources */,
 				1A2AC5571AE9D5FF00F7E0A2 /* Images.xcassets in Resources */,

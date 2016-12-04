@@ -10,13 +10,9 @@
 
 #define JM_TabBar_IOS7_OR_LATER                ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)
 
-NSString *const JM_TabBar_LoginStateControl_Dic_Index = @"Index";
-NSString *const JM_TabBar_LoginStateControl_Dic_Obj   = @"Obj";
-
 @interface JMTabBarController ()
 {
     NSUInteger     _tagOrigin;
-    NSMutableArray *_loginStateControlArray;
 }
 @end
 
@@ -89,12 +85,6 @@ NSString *const JM_TabBar_LoginStateControl_Dic_Obj   = @"Obj";
 }
 
 - (void)setupTabBarController {
-    if (_loginStateControlArray == nil) {
-        _loginStateControlArray = [NSMutableArray array];
-    }else {
-        [_loginStateControlArray removeAllObjects];
-    }
-    
     if (_tabBarArray != nil && _tabBarArray.count != 0) {
         NSUInteger count = _tabBarArray.count;
         NSMutableArray *viewControllerArray = [NSMutableArray array];
@@ -123,14 +113,6 @@ NSString *const JM_TabBar_LoginStateControl_Dic_Obj   = @"Obj";
                     self.selectedIndex = i;
                 }else {
                     [navVC.tabBarItem setTitleTextAttributes:self.tabBarUnSelectedTextAttributesDic forState:UIControlStateNormal];
-                }
-                
-                if (item.loginStateControl) {
-                    // 需要登录状态控制
-                    [_loginStateControlArray addObject:@{
-                                                         JM_TabBar_LoginStateControl_Dic_Index:@(i),
-                                                         JM_TabBar_LoginStateControl_Dic_Obj:navVC,
-                                                         }];
                 }
                 
                 [viewControllerArray addObject:navVC];
@@ -182,16 +164,9 @@ NSString *const JM_TabBar_LoginStateControl_Dic_Obj   = @"Obj";
 - (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController {
     BOOL shouldSelected = YES;
     
-    if (_loginStateControlArray != nil && _loginStateControlArray.count != 0) {
-        for (int i = 0; i < _loginStateControlArray.count; i++) {
-            NSDictionary *dict = _loginStateControlArray[i];
-            
-            if (dict[JM_TabBar_LoginStateControl_Dic_Obj] == viewController) {
-                if (_tabBarLoginStateControl != nil) {
-                    shouldSelected = _tabBarLoginStateControl(dict[JM_TabBar_LoginStateControl_Dic_Obj], [dict[JM_TabBar_LoginStateControl_Dic_Index] integerValue]);
-                }
-            }
-        }
+    if (_tabBarShouldSelectBlock) {
+        NSUInteger  index   = [self.viewControllers indexOfObject:viewController];
+        shouldSelected = _tabBarShouldSelectBlock(viewController, index);
     }
     
     if (shouldSelected) {

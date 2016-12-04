@@ -14,7 +14,7 @@ typedef void (^JMTabBarViewWillDisappear)   (void);
 typedef void (^JMTabBarViewDidAppear)       (void);
 typedef void (^JMTabBarViewDidDisappear)    (void);
 
-typedef BOOL (^JMTabBarLoginStateControl) (UIViewController *viewController, NSInteger selectedIndex);
+typedef BOOL (^JMTabBarShouldSelectBlock) (UIViewController *viewController, NSInteger shouldSelectedIndex);
 
 @interface JMTabBarController : UITabBarController<UITabBarControllerDelegate>
 
@@ -22,14 +22,17 @@ typedef BOOL (^JMTabBarLoginStateControl) (UIViewController *viewController, NSI
 @property (nonatomic,copy) JMTabBarViewWillDisappear tabBarViewWillDisappear;
 @property (nonatomic,copy) JMTabBarViewDidAppear     tabBarViewDidAppear;
 @property (nonatomic,copy) JMTabBarViewDidDisappear  tabBarViewDidDisappear;
-/** 登录状态控制（比如未登录跳转到登录）**/
-@property (nonatomic,copy) JMTabBarLoginStateControl tabBarLoginStateControl;//
+/** 控制TabBarItem能不能选中(可用于如登录控制等) **/
+@property (nonatomic,copy) JMTabBarShouldSelectBlock tabBarShouldSelectBlock;
 /** tabBar数组,存放每个JMTabBarItem **/
 @property (nonatomic,strong) NSArray                   *tabBarArray;
 /** 选中时候的tabBar文本样式 **/
 @property (nonatomic,strong) NSDictionary              *tabBarSelectedTextAttributesDic;
 /** 未选中时候的tabBar文本样式 **/
 @property (nonatomic,strong) NSDictionary              *tabBarUnSelectedTextAttributesDic;
+
+- (instancetype)init NS_UNAVAILABLE;
++ (instancetype)new NS_UNAVAILABLE;
 
 /**
  *  @brief 实例化

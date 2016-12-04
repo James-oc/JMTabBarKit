@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JMTabBarKit/JMTabBarKit/JMTabBarController.m"
-            timestampString = "493203903.896658"
+            timestampString = "502549470.992177"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
             landmarkName = "-setupTabBarController"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,12 +42,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JMTabBarKit/JMTabBarKit/JMTabBarController.m"
-            timestampString = "493203903.896658"
+            timestampString = "502549470.992177"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "138"
-            endingLineNumber = "138"
-            landmarkName = "-setTabBarSelectedIndex:"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "-setupTabBarController"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -58,11 +58,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JMTabBarKit/JMTabBarKit/JMTabBarController.m"
-            timestampString = "493203903.896658"
+            timestampString = "502549470.992177"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "90"
-            endingLineNumber = "90"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "-setupTabBarController"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JMTabBarKit/JMTabBarKit/JMTabBarController.m"
+            timestampString = "502555586.434603"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
             landmarkName = "-setupTabBarController"
             landmarkType = "7">
          </BreakpointContent>

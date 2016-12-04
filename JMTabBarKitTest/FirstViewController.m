@@ -25,6 +25,11 @@
     [btn setTitle:@"切换" forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(clickBtn) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
+    
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(50, 220, 20, 20)];
+    imageView.image        = [UIImage imageNamed:@"Tab_Center_Selected"];
+    
+    [self.view addSubview:imageView];
 }
 
 - (void)didReceiveMemoryWarning {

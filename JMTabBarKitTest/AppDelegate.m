@@ -60,7 +60,7 @@
     
     JMTabBarItem *item2 = [JMTabBarItem tabBarItemWithTitle:@"客服"
                                               controllClass:[SecondViewController class]
-                                          selectedImageName:@"Tab_Assistant_Highlight"
+                                          selectedImageName:@"Tab_Center_Selected"
                                         unSelectedImageName:@"Tab_Assistant_Normal"
                                                    selected:NO];
     
@@ -70,8 +70,7 @@
                                               controllClass:[ThirdViewController class]
                                           selectedImageName:@"Tab_Mine_Highlight"
                                         unSelectedImageName:@"Tab_Mine_Normal"
-                                                   selected:NO
-                                          loginStateControl:true];
+                                                   selected:NO];
     
     [tabArray addObject:item3];
     
@@ -85,16 +84,19 @@
                                                   unSelectedTextAttributes:unSelectedStyleDic];
     
     __weak JMTabBarController *weakTabBarVC = _tabBarVC;
-    _tabBarVC.tabBarLoginStateControl = ^(UIViewController* viewController,NSInteger index) {
-        ViewController *login = [[ViewController alloc] init];
-        [weakTabBarVC presentViewController:login animated:YES completion:^{
+    _tabBarVC.tabBarShouldSelectBlock = ^(UIViewController * viewController,NSInteger shouldSelectedIndex) {
+        if (shouldSelectedIndex == 2) {
+            ViewController *login = [[ViewController alloc] init];
+            [weakTabBarVC presentViewController:login animated:YES completion:^{
+                
+            }];
             
-        }];
-        
-        return NO;
+            return NO;
+        }
+
+        return YES;
     };
     self.window.rootViewController = _tabBarVC;
-    
 //    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 10, 5)];
 //    view.backgroundColor = [UIColor redColor];
 //    [tabBarVC.tabBar addSubview:view];
