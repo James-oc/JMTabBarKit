@@ -136,10 +136,10 @@
     UIViewController *selectedVC = nil;
     
     if (tabBarSelectedIndex >= 0 && tabBarSelectedIndex < _tabBarArray.count) {
-        self.selectedIndex = tabBarSelectedIndex;
-        
         selectedVC = self.viewControllers[tabBarSelectedIndex];
-        [self tabBarController:self shouldSelectViewController:selectedVC];
+        if ([self tabBarController:self shouldSelectViewController:selectedVC]) {
+            self.selectedIndex = tabBarSelectedIndex;
+        }
     }
     
     return selectedVC;

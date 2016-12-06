@@ -80,7 +80,7 @@
     
     [tabArray addObject:item3];
     
-    NSDictionary *selectedStyleDic = @{NSFontAttributeName: [UIFont systemFontOfSize:12], NSForegroundColorAttributeName: [UIColor colorWithRed:255.0/255.0 green:73.0/255.0 blue:0.0/255.0 alpha:1.0]};
+    NSDictionary *selectedStyleDic = @{NSFontAttributeName: [UIFont systemFontOfSize:12], NSForegroundColorAttributeName: [UIColor colorWithRed:0 green:152.0/255.0 blue:0 alpha:1.0]};
     
     NSDictionary *unSelectedStyleDic = @{NSFontAttributeName: [UIFont systemFontOfSize:12], NSForegroundColorAttributeName: [UIColor colorWithRed:74.0f/255.0f green:74.0f/255.0f blue:74.0f/255.0f alpha:1.0]};
     
