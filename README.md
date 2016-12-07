@@ -20,9 +20,6 @@ CocoaPods是OSX和iOS下的一个第三类库管理工具,如果你还未安装�
 
 ## Podfile
 ```OC
-source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '6.0'
-
 pod 'JMTabBarKit', '~> 1.0.1'
 ```
 执行命令
