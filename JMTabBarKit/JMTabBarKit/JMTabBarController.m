@@ -14,6 +14,14 @@
 {
     NSUInteger     _tagOrigin;
 }
+
+/** tabBar数组,存放每个JMTabBarItem **/
+@property (nonatomic,strong, readwrite) NSArray       *tabBarArray;
+/** 选中时候的tabBar文本样式 **/
+@property (nonatomic,strong, readwrite) NSDictionary  *tabBarSelectedTextAttributesDic;
+/** 未选中时候的tabBar文本样式 **/
+@property (nonatomic,strong, readwrite) NSDictionary  *tabBarUnSelectedTextAttributesDic;
+
 @end
 
 @implementation JMTabBarController
@@ -143,22 +151,6 @@
     }
     
     return selectedVC;
-}
-
-#pragma mark - properties set
-- (void)setTabBarArray:(NSArray *)tabBarArray {
-    _tabBarArray = tabBarArray;
-    [self setupTabBarController];
-}
-
-- (void)setTabBarSelectedTextAttributesDic:(NSDictionary *)tabBarSelectedTextAttributesDic {
-    _tabBarSelectedTextAttributesDic = tabBarSelectedTextAttributesDic;
-    [self setupTabBarController];
-}
-
-- (void)setTabBarUnSelectedTextAttributesDic:(NSDictionary *)tabBarUnSelectedTextAttributesDic {
-    _tabBarUnSelectedTextAttributesDic = tabBarUnSelectedTextAttributesDic;
-    [self setupTabBarController];
 }
 
 #pragma mark - UITabBarControllerDelegate

@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface JMTabBarItem : NSObject
 
 @property (nonatomic,strong) NSString       *title;
@@ -15,7 +17,6 @@
 @property (nonatomic,strong) NSString       *selectedImageName;
 @property (nonatomic,strong) NSString       *unSelectedImageName;
 @property (nonatomic,assign) BOOL           selected;               // 是否被选中显示
-
 
 /**
  *  @brief TabBarItem
@@ -35,3 +36,5 @@
                            selected:(BOOL)selected;
 
 @end
+
+NS_ASSUME_NONNULL_END

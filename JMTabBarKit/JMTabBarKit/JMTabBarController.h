@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "JMTabBarItem.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 typedef void (^JMTabBarViewWillAppear)      (void);
 typedef void (^JMTabBarViewWillDisappear)   (void);
 typedef void (^JMTabBarViewDidAppear)       (void);
@@ -25,11 +27,11 @@ typedef BOOL (^JMTabBarShouldSelectBlock) (UIViewController *viewController, NSI
 /** 控制TabBarItem能不能选中(可用于如登录控制等) **/
 @property (nonatomic,copy) JMTabBarShouldSelectBlock tabBarShouldSelectBlock;
 /** tabBar数组,存放每个JMTabBarItem **/
-@property (nonatomic,strong) NSArray                   *tabBarArray;
+@property (nonatomic,strong, readonly) NSArray       *tabBarArray;
 /** 选中时候的tabBar文本样式 **/
-@property (nonatomic,strong) NSDictionary              *tabBarSelectedTextAttributesDic;
+@property (nonatomic,strong, readonly) NSDictionary  *tabBarSelectedTextAttributesDic;
 /** 未选中时候的tabBar文本样式 **/
-@property (nonatomic,strong) NSDictionary              *tabBarUnSelectedTextAttributesDic;
+@property (nonatomic,strong, readonly) NSDictionary  *tabBarUnSelectedTextAttributesDic;
 
 - (instancetype)init NS_UNAVAILABLE;
 + (instancetype)new NS_UNAVAILABLE;
@@ -57,3 +59,5 @@ typedef BOOL (^JMTabBarShouldSelectBlock) (UIViewController *viewController, NSI
 - (UIViewController *)setTabBarSelectedIndex:(NSInteger)tabBarSelectedIndex;
 
 @end
+
+NS_ASSUME_NONNULL_END
