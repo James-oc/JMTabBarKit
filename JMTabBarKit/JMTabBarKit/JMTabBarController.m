@@ -16,11 +16,12 @@
 }
 
 /** tabBar数组,存放每个JMTabBarItem **/
-@property (nonatomic,strong, readwrite) NSArray       *tabBarArray;
+@property (nonatomic, strong, readwrite) NSArray       *tabBarArray;
 /** 选中时候的tabBar文本样式 **/
-@property (nonatomic,strong, readwrite) NSDictionary  *tabBarSelectedTextAttributesDic;
+@property (nonatomic, strong, readwrite) NSDictionary  *tabBarSelectedTextAttributesDic;
 /** 未选中时候的tabBar文本样式 **/
-@property (nonatomic,strong, readwrite) NSDictionary  *tabBarUnSelectedTextAttributesDic;
+@property (nonatomic, strong, readwrite) NSDictionary  *tabBarUnSelectedTextAttributesDic;
+@property (nonatomic, assign, readwrite) BOOL          enableShouldSelectedBlk;
 
 @end
 
@@ -87,12 +88,15 @@
         self.tabBarArray                       = tabBarArray;
         self.tabBarSelectedTextAttributesDic   = selectedTextAttributesArray;
         self.tabBarUnSelectedTextAttributesDic = unSelectedTextAttributesArray;
+        [self setupTabBarController];
     }
     
     return self;
 }
 
 - (void)setupTabBarController {
+    NSInteger selectedIndex = 0;
+    
     if (_tabBarArray != nil && _tabBarArray.count != 0) {
         NSUInteger count = _tabBarArray.count;
         NSMutableArray *viewControllerArray = [NSMutableArray array];
@@ -119,7 +123,7 @@
                 
                 if (item.selected) {
                     [navVC.tabBarItem setTitleTextAttributes:self.tabBarSelectedTextAttributesDic forState:UIControlStateNormal];
-                    self.selectedIndex = i;
+                    selectedIndex = i;
                 }else {
                     [navVC.tabBarItem setTitleTextAttributes:self.tabBarUnSelectedTextAttributesDic forState:UIControlStateNormal];
                 }
@@ -130,6 +134,10 @@
         
         self.viewControllers = viewControllerArray;
         self.delegate        = self;
+        
+        self.enableShouldSelectedBlk = false;
+        [self setTabBarSelectedIndex:selectedIndex];
+        self.enableShouldSelectedBlk = true;
     }
 }
 
@@ -157,7 +165,7 @@
 - (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController {
     BOOL shouldSelected = YES;
     
-    if (_tabBarShouldSelectBlock) {
+    if (_tabBarShouldSelectBlock && self.enableShouldSelectedBlk) {
         NSUInteger  index   = [self.viewControllers indexOfObject:viewController];
         shouldSelected = _tabBarShouldSelectBlock(viewController, index);
     }
