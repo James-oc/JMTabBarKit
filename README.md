@@ -3,7 +3,7 @@
 ---
 
 ## 效果
-![Alt Text](https://github.com/xiaobs/JMShareSource/raw/master/screenshots/OC/JMTabBarKit/JMTabBarKit.gif)
+![Alt Text](https://github.com/James-oc/JMShareSource/raw/master/screenshots/OC/JMTabBarKit/JMTabBarKit.gif)
 
 ## 安装
 1. 将工程项目中的JMTabBarKit文件夹拉入自己的工程项目里面。
